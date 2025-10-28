@@ -1,0 +1,12 @@
+{
+  "extras": {},
+  "mode": "glitch",
+  "source": {
+    "label": "lefthand",
+    "raw_video": "live_stream_logs/2025-10-20_14-13-57/raw.mp4",
+    "session_folder": "live_stream_logs/2025-10-20_14-13-57",
+    "type": "live_classify"
+  },
+  "timestamp": 1760987707.3087232,
+  "version": 1
+}

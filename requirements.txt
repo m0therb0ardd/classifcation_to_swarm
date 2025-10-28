@@ -1,0 +1,19 @@
+# core ML + data
+numpy
+pandas
+scikit-learn
+joblib
+
+# vision / camera
+opencv-python
+mediapipe
+
+# pandas timezone dependency
+pytz
+
+# optional: only for watcher script
+# jq      # system tool (apt install jq)
+# inotify-tools  # system tool (apt install inotify-tools)
+
+
+# python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
