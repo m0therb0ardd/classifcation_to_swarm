@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3.8
 import asyncio, json, os
 from cctl import cli
 from cctl.conf import Configuration
