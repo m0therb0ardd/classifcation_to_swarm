@@ -19,7 +19,7 @@ OFF_THRESH      = 0.55         # below this we consider it "off" (hysteresis)
 MIN_EVENT_SEC   = 0.40         # must persist above ON_THRESH this long to emit an event
 COOLDOWN_SEC    = 0.60         # ignore same label again for this long after an event
 
-CAM_INDEX       = 6
+CAM_INDEX       = 4            # 4 is the coachbot computer index 6 is my laptop index 
 FRAME_SIZE      = (640, 480)   # width, height
 POSE_DRAW       = True
 
@@ -42,7 +42,7 @@ label_to_mode = {
     "stillness":  ("encircling",         {}),
 }
 
-PAUSE_AFTER_EVENT_SEC = 10.0   # <— your “don’t look for poses” window
+PAUSE_AFTER_EVENT_SEC = 15.0   # <—  “don’t look for poses” window
 
 # ---------- MODEL LOAD ----------
 THIS_DIR   = os.path.abspath(os.path.dirname(__file__))
@@ -344,7 +344,7 @@ try:
                     label=cls,
                     true_label=None,
                     feat=feat,
-                    X_df=X,                         # the aligned DataFrame you just built
+                    X_df=X,                         # the aligned DataFrame 
                     session_folder=OUT_DIR,
                     raw_video_path=RAW_MP4
                 )
