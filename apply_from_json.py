@@ -5,12 +5,12 @@ from cctl.conf import Configuration
 
 ROBOTS = [4, 5]
 MODE_TO_FILE = {
-    "float":            "usr_code_filler.py",
+    "float":            "usr_code_float.py",
     "glide":            "usr_code_filler.py",
     "glitch":           "usr_code_glitch.py",
     "directional_left": "usr_code_move_left.py",
     "directional_right":"usr_code_move_right.py",
-    "punch":            "usr_code_filler.py",
+    "punch":            "usr_code_punch.py",
     "slash":            "usr_code_filler.py",
     "encircling":       "usr_code_encircling.py",
 }
